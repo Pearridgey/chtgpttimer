@@ -72,6 +72,7 @@ export function App() {
             className="px-4 py-2 bg-green-500 text-white rounded shadow hover:bg-green-600"
             onClick={() => setIsRunning(true)}
           >
+
             START
           </button>
           <button
@@ -87,6 +88,8 @@ export function App() {
             RESET
           </button>
         </div>
+
+        
       </div>
     </div>
   );
